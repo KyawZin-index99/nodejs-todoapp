@@ -9,7 +9,7 @@
     "executionRoleArn": "arn:aws:iam::767398055677:role/ecsTaskExecutionRole",
     "containerDefinitions": [
       {
-        "name": "nodejs-todoapp",
+        "name": "todo-app",
         "image": "$AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$IMAGE_TAG",
         "essential": true,
         "portMappings": [

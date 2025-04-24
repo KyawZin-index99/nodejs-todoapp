@@ -4,9 +4,9 @@ env:
     AWS_ACCOUNT_ID: "767398055677"
     AWS_DEFAULT_REGION: "ap-southeast-1"
     IMAGE_REPO_NAME: "todo-app"
-    ECS_CLUSTER: "test"
+    ECS_CLUSTER: "task"
     SERVICE_NAME: "todo-app-service"
-    TASK_DEF_FAMILY: "todo-app"
+    TASK_DEF_FAMILY: "task"
 
 phases:
   pre_build:

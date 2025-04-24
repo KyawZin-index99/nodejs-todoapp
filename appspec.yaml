@@ -4,10 +4,10 @@ Resources:
       Type: AWS::ECS::Service
       Properties:
         # The ECS service name to update
-        TaskDefinition: "arn:aws:ecs:ap-southeast-1:767398055677:task-definition/todo-task"
-        #arn:aws:ecs:ap-southeast-1:767398055677:task-definition/todo-task:1
+        TaskDefinition: "arn:aws:ecs:ap-southeast-1:767398055677:task-definition/task"
+        #arn:aws:ecs:ap-southeast-1:767398055677:task-definition/task:9
         LoadBalancerInfo:
-          ContainerName: "todo-app"
+          ContainerName: "task"
           ContainerPort: 3000
 # hooks:
 #   BeforeInstall:

@@ -5,8 +5,8 @@ env:
     AWS_DEFAULT_REGION: "ap-southeast-1"
     IMAGE_REPO_NAME: "todo-app"
     ECS_CLUSTER: "test"
-    SERVICE_NAME: "todo-task-service"
-    TASK_DEF_FAMILY: "todoapptask"
+    SERVICE_NAME: "todo-app-service"
+    TASK_DEF_FAMILY: "todo-app"
 
 phases:
   pre_build:
